@@ -1,0 +1,412 @@
+$OpenSans: OpenSans, Arial, sans-serif
+$OpenSans-Bold: OpenSans-Bold, Arial, sans-serif
+$OpenSans-ExtraBold: OpenSans-ExtraBold, Arial, sans-serif
+$OpenSans-Italic: OpenSans-Italic, Arial, sans-serif
+$OpenSans-Light: OpenSans-Light, Arial, sans-serif
+$OpenSans-Semibold: OpenSans-Semibold, Arial, sans-serif
+
+
+
+$col-12: 100%
+$col-11: 91.66666666666666%
+$col-10: 83.33333333333334%
+$col-9: 75%
+$col-8: 66.66666666666666%
+$col-7: 58.333333333333336%
+$col-6: 50%
+$col-5: 41.66666666666667%
+$col-4: 33.33333333333333%
+$col-3: 25%
+$col-2: 16.666666666666664%
+$col-1: 8.333333333333332%
+
+
+html
+	font: 16px/1.75 $OpenSans
+h1,h2,h3,h4,h5,h6,p
+	margin: 0
+input
+	&:focus
+		outline: none
+small
+	font-size: 100%
+	text-transform: lowercase
+b
+	font-weight: normal
+	font-family: $OpenSans-Bold
+.main-header
+	padding: 0 15px
+	padding-bottom: 20px
+	background: url("..//img/header__bg.jpg") no-repeat right
+	background-size: 100% 100%
+.main-header__h
+	width: $col-8
+	padding-top: 31px
+	margin-left: 30px
+	font: 36px $OpenSans-ExtraBold
+	text-transform: uppercase
+.main-header__h2
+	width: $col-8
+	margin-left: 30px
+	margin-top: 7px
+	font: 26px $OpenSans-Semibold
+.main-header__wrap-items
+	display: flex
+	width: $col-8
+.main-header__items
+	padding-left: 84px
+	margin-top: 48px
+	font-family: $OpenSans-Semibold
+	background: url("..//img/icon__ok.png") no-repeat 10% 40%
+	&:last-child
+		padding-left: 96px
+.registration
+	display: flex
+	justify-content: space-between
+	align-items: center
+	text-align: left
+	padding: 40px 30px
+	background: #fff
+	box-shadow: 0 10px 38px 5px rgba(0,0,0,0.35)
+.registration_margin
+	margin-top: 62px
+.registration__description
+	flex-basis: 48%
+	font: 17px/1.5 $OpenSans-Bold
+	text-transform: uppercase
+.registration__input-tel, .registration__input-button
+	width: 244px
+	border-radius: 24px
+	padding: 13px 0
+.registration__input-tel
+	border: #ff9800 3px solid
+	text-align: center
+	font-family: $OpenSans-Light
+.registration__input-button
+	border: none
+	background: #ff9800
+	color: #fff
+	text-transform: uppercase
+	font-family: $OpenSans-Bold
+.our-numbers__wrapper-header
+	padding-top: 53px
+	padding-left: 80px
+	padding-bottom: 54px
+	background: url("..//img/men.png") no-repeat
+	background-position: 78% 241%
+.our-numbers__wrapper-header-2
+	width: 42.3%
+	padding-left: 35px
+	border-left: 5px #009285 solid
+.our-numbers__header
+	font: 26px/40px $OpenSans-ExtraBold
+.our-numbers__description
+	font-family: $OpenSans-Italic
+	line-height: 28px
+	margin-top: 16px
+.numbers
+	font-size: 0
+	background: #fff
+	box-shadow: 0 20px 29px 0px rgba(0,0,0,0.22)
+.numbers__box
+	background: #fff
+	position: relative
+	box-sizing: border-box
+	display: inline-block
+	width: $col-4
+	padding: 15px 0 34px 0
+	font-size: 16px
+	text-align: center
+	box-shadow: 0 0 29px 0 rgba(0,0,0,0.22)
+.numbers__box-z-1
+	z-index: 1
+.numbers__box-z-2
+	z-index: 2
+.numbers__box-z-3
+	z-index: 3
+.numbers__box-z-4
+	z-index: 4
+.number__box-h
+	font: 42px $OpenSans-ExtraBold
+	text-transform: uppercase
+	color: #ff9800
+.number__box-d
+	font: 16px $OpenSans-Semibold
+.our-job
+	margin-top: 52px
+.our-job__h
+	padding-right: 25px
+	font: 26px $OpenSans-ExtraBold
+	text-transform: uppercase
+	text-align: center
+	padding-bottom: 5px
+.our-job__box
+	margin-left: 134px
+	padding-left: 80px
+	width: $col-8
+.our-job__box-h
+	margin-top: 22px
+	font: 18px/26px $OpenSans-Bold
+	text-transform: uppercase
+.our-job__box-d
+	margin-top: 13px
+	font-size: 16px
+	line-height: 28px
+.our-job__box_icon-horse
+	background: url("..//img/icon2__horse.png") no-repeat 0 5px
+.our-job__box_icon-rocket
+	background: url("..//img/icon2__rocket.png") no-repeat 0 5px
+.our-job__box_icon-clock
+	background: url("..//img/icon2__clock.png") no-repeat 0 5px
+.our-job__box_icon-tablet
+	background: url("..//img/icon2__tablet.png") no-repeat 0 5px
+.our-job__box_icon-handwheel
+	background: url("..//img/icon2__handwheel.png") no-repeat 0 5px
+.wrapper__registration
+	margin-top: 63px
+	padding: 30px 15px
+	position: relative
+	z-index: 100
+.wrapper__registration_bg
+	background: #ff9800
+	&:after
+		content: " "
+		right: 100px
+		top: -47px
+		position: absolute
+		width: 274px
+		height: 280px
+		background: url("..//img/circle_grass.png") no-repeat 100% 100%
+.registration
+	position: relative
+	z-index: 100
+.problem
+	display: flex
+	flex-wrap: wrap
+	padding-top: 69px
+	padding-bottom: 25px
+	background: #f0f4f4 url("..//img/stop.png") no-repeat 50% 67%
+.problem__header
+	width: $col-10
+	margin: 0 auto
+	margin-bottom: 19px
+	text-align: center
+	font: 26px/38px $OpenSans-ExtraBold
+	text-transform: uppercase
+.problem__box
+	box-sizing: border-box
+	width: 47.5%
+	margin: 1.25%
+	padding: 30px
+	padding-top: 25px
+	padding-bottom: 11px
+	background: #fff
+	box-shadow: 0 0 7px 1px rgba(0,0,0,0.21)
+.problem__box-h
+	margin-bottom: 14px
+	font: 18px $OpenSans-Bold
+	text-transform: uppercase
+.problem__box-d
+	font-size: 16px
+.land-plot
+.land-plot__h
+	width: $col-10 - 5%
+	margin: 0 auto
+	margin-top: 60px
+	margin-bottom: 30px
+	text-align: center
+	font: 26px $OpenSans-ExtraBold
+	text-transform: uppercase
+.land-plot__block
+	font-size: 16px
+	&:nth-child(odd)
+		box-sizing: border-box
+		width: $col-8 - 5%
+		margin-left: $col-4
+		padding-left: $col-1 + 1%
+	&:nth-child(even)
+		box-sizing: border-box
+		width: $col-7 + 15%
+		margin-left: $col-1
+		padding-left: $col-1 + 1%
+	&:nth-child(2)
+		width: $col-7 + 7%
+		padding-top: 40px
+		background: url("..//img/icon__king.png") no-repeat 15px 53px
+	&:nth-child(3)
+		padding-top: 77px
+		padding-bottom: 15px
+		background: url("..//img/icon__horse.png") no-repeat 26px 83px
+	&:nth-child(4)
+		padding-top: 48px
+		background: url("..//img/icon__tablet.png") no-repeat 26px 59px
+	&:nth-child(5)
+		padding-top: 72px
+		background: url("..//img/icon__mountain.png") no-repeat 22px 71px
+		padding-bottom: 10px
+.wrapper__registration_bg-grey
+		margin-top: 105px
+		background: #e4e7e6
+		&:after
+			content: " "
+			left: 32px
+			top: -92px
+			position: absolute
+			width: 393px
+			height: 332px
+			background: url("..//img/city.png") no-repeat 100% 100%
+			z-index: 10
+.job-steps
+	padding: 0 15px
+	text-align: center
+.job-steps__h
+	margin-top: 67px
+	font: 26px $OpenSans-ExtraBold
+	text-transform: uppercase
+.job-steps__box
+	position: relative
+	margin-top: 68px
+	border: 6px solid #dee1e2
+	text-align: center
+	padding: 72px 0
+.job-steps__numbers
+	position: absolute
+	left: 50%
+	top: -28px
+	padding-left: 12.5%
+	padding-right: 17.5%
+	margin-left: -22.5%
+	font: 35px $OpenSans-ExtraBold
+	color: #dee1e2
+	background: #fff
+	a
+		margin-left: 9px
+.job-steps__numbers_active
+	color: #009688
+.prev
+	position: absolute
+	left: 23px
+	width: 18px
+	height: 32px
+	background: url("..//img/icon__prev.png") no-repeat center
+.next
+	position: absolute
+	right: 22px
+	width: 18px
+	height: 32px
+	background: url("..//img/icon__next.png") no-repeat center
+.job-steps__numbers-d
+	font-size: 18px
+.time-transfer
+	margin-top: 32px
+	padding-bottom: 13px
+	text-align: center
+	background: url("..//img/clock-2__bg.png") no-repeat 5.5% -22%, url("..//img/clock-1__bg.png") no-repeat 100% -44%, url("..//img/clock-3__bg.png") no-repeat 91% 137%
+	background-color: #f4f7f8
+.time-transfer-h
+	padding-top: 52px
+	font: 26px $OpenSans-ExtraBold
+	text-transform: uppercase
+.time-transfer__article-wrapper
+	display: flex
+	justify-content: space-between
+	padding-left: 116px
+	padding-right: 182px
+	margin-top: 47px
+.time-transfer__article
+	text-align: left
+	margin-right: 30px
+.time-transfer__article-h
+	font: 18px $OpenSans-Bold
+	text-transform: uppercase
+.time-transfer__article-subtitle
+	display: inline-block
+	margin-top: 4px
+	font-family: $OpenSans-Bold
+	font-size: 16px
+	color: #009688
+.time-transfer__article-d
+	font-size: 16px
+	margin-top: 28px
+.wrapper__registration_no-bg
+	background: none
+	margin-top: 3px
+.registration_bg-orange
+	background: #ff9800
+.registration__description_color-white
+	color: #fff
+.registration__input-button_bg-blue
+	background: #009688
+.work-format
+	text-align: center
+.work-format__h
+	margin-top: 37px
+	font: 26px $OpenSans-ExtraBold
+	text-transform: uppercase
+.work-format__h-subtitle
+	margin: 0 auto
+	margin-top: 12px
+	width: 90%
+	font: 16px/28px $OpenSans-Italic
+.work-format__wrapper-variety
+	display: flex
+	justify-content: center
+	margin-top: 33px
+	padding: 0 115px
+	background: url("..//img/city2__bg.png") no-repeat 0 75%
+	background-size: 100% auto
+.work-format__variety
+	border: 6px solid #dee1e2
+	flex-basis: 50%
+	padding: 0 28px
+	padding-top: 145px
+	padding-bottom: 32px
+	&:first-child
+		margin-right: 30px
+		background: url("..//img/five__stars.png") no-repeat 50% 13%
+		background-color: #FFF
+	&:last-child
+		background: url("..//img/one__star.png") no-repeat 50% 13%
+		background-color: #FFF
+.work-format__variety-h
+	font: 18px $OpenSans-Bold
+	text-transform: uppercase
+.work-format__variety-d
+	margin-top: 14px
+	font-size: 16px
+.work-format__variety_active
+	border: 6px solid #009688
+.warranty
+	text-align: center
+.warranty__h
+	margin-top: 50px
+	font: 26px $OpenSans-ExtraBold
+	text-transform: uppercase
+.warranty__subtitle
+	width: 80%
+	margin: 0 auto
+	margin-top: 10px
+	font: 16px/28px $OpenSans-Italic
+.warranty__wrapper-article
+	display: flex
+	justify-content: center
+.warranty__article
+	flex-basis: 25%
+	padding: 0 15px
+	padding-top: 145px
+	text-align: left
+	font-size: 16px
+	&:nth-child(1)
+		background: url("..//img/load__80.png") no-repeat 50% 8%
+	&:nth-child(2)
+		background: url("..//img/load__90.png") no-repeat 50% 8%
+	&:nth-child(3)
+		background: url("..//img/load__95.png") no-repeat 50% 8%
+	&:nth-child(4)
+		background: url("..//img/load__100.png") no-repeat 50% 8%
+.wrapper__registration_orange
+	margin-top: 41px
+	margin-bottom: 110px
+	background: #ff9800
+.registration__input-tel_border-blue
+	border: #009688 3px solid
